@@ -1,0 +1,47 @@
+/*Geral*/
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1c1c1c;
+    color: #0d109e;
+}
+
+.container {
+    text-align: center;
+    background-color: #949494;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input::placeholder {
+    color: #1212129e;
+    font-size: 10px;
+    font-family: "Oxanium", sans-serif;
+}
+
+input {
+    width: 50%;
+    height: 20px;
+    background-color: #f8f8f8a5;
+    border: solid 3px #001308;
+    padding: 20px 15px;
+    border-radius: 20px;
+    color: #0d109e;
+    font-size: 20px;
+    font-family: "Oxanium", sans-serif;
+}
